@@ -24,7 +24,7 @@ spring:
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
-
+#    配置读取sql文件，启动运行sql文件
 #    schema:
 #      - classpath:department.sql
 #    initialization-mode: always
