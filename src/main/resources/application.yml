@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/springboot
+    driver-class-name: com.mysql.jdbc.Driver
+    schema:
+      - classpath:department.sql
+    initialization-mode: always
